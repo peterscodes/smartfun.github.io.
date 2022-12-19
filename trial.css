@@ -1,0 +1,73 @@
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 612px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(223,0,255,0.25);
+    border-radius: 25px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+.text-back{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50%;
+    background: #131315;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 25px 25px;
+}
+h1{
+    border-bottom: 1px solid #DF00FF;
+    padding-bottom: 15px;
+    font-size: 1.75vw;
+    font-weight: 400;
+}
+.text_back {
+    width: 85%;
+    margin: auto;
+}
+p{
+    font-size: 1vw;
+    font-weight: 400;
+    margin-top: 5%;
+}
+span{
+    color: #DB9EDF;
+    margin-top: 25%;
+}
+.image_container{
+    width: 100%;
+    height: 50%;
+    border-radius: 25px 25px 0 0;
+    background: url(./Pineapple_Farming.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.flip_card_back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.flip_card_back{
+    background-color: #19191A;
+    color: #fff;
+    transform: rotateY('180deg');
+}
+h2{
+    /* width: 100%; */
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50% -50%);
+}
